@@ -1,0 +1,82 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fondo-purpura {
+    display: flex;
+    position: relative;
+    background-color: rgb(37, 15, 102);
+    width: 100%;
+    height: 400px;
+}
+
+.tarjeta {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 600px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.img-logo {
+    width: 75px;
+    height: 75px;
+}
+
+.tarjeta a {
+    text-decoration: none;
+}
+
+.tarjeta a:hover {
+    color: rgb(5, 151, 151);
+}
+
+.form {
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.form .elemento-formulario {
+    margin-bottom: 10px;
+}
+
+.tabla-tweets {
+    margin-top: 20px;
+}
+
+#tweetTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tweetTable th,
+#tweetTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#tweetTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tweetTable tr:hover {
+    background-color: #ddd;
+}
+
+.boton-eliminar {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
